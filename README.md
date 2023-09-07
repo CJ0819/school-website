@@ -11,10 +11,10 @@ Navigation: The navigation menu allows easy access to different sections of the 
 
 Interactive Slider: The homepage features an interactive image slider showcasing various aspects of our school.
 
-About Us Section: Provides detailed information about First Galaxy Ridge School, including our mission, values, and commitment to quality education.
+About Us Section: Provides detailed information about the School, including our mission, values, and commitment to quality education.
 
 Admissions, Contact, and Appointments: Quick links to admissions information, contact details, and appointment procedures for prospective students and parents.
 
 Frequently Asked Questions (FAQ): A section where common queries are addressed, providing clarity on enrollment, fees, curriculum, terms, and report distribution.
 
-Social Media Integration: Links to our social media profiles for easy access to our online presence.
+Social Media Integration: Links to the schools social media profiles for easy access to our online presence.
