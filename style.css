@@ -1,0 +1,176 @@
+h2 {
+  font-family: Bahnschrift;
+  font-size: 20px;
+  padding-right: 580px;
+}
+#container{
+  display: flex;
+  align-items: center;
+}
+h5 {
+  padding: 0px 5px;
+  color: darkorange;
+}
+h4 {
+  color: darkslategrey;
+}
+/*all this is for the menu*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+}
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: orange;
+}
+ul{
+  margin-left: 60px;
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 60px;
+}
+ul li a{
+  text-decoration: none;
+  font-size: 18px;
+  font-family: arial;
+  color: white;
+  padding: 0 20px;
+  display: block;
+}
+ul li a:hover {
+  color: dimgray;
+}
+p {
+  font-family: arial;
+  color: darkslategrey;
+}
+/*For pictures changing*/
+#slider{
+  overflow: hidden;
+}
+#slider figure{
+  position: relative;
+  width: 850%;
+  margin: 0;
+  left: 0;
+  animation: 30s slider infinite;
+}
+#slider figure img{
+  float: left;
+  width: 12%;
+}
+@keyframes slider {
+  0%{
+    left: 0;
+  }
+  10%{
+    left: 0%;
+  }
+  20%{
+    left: -103%;
+  }
+  30%{
+    left: -204%;
+  }
+  40%{
+    left: -306%;
+  }
+  50%{
+    left: -408%;
+  }
+  60%{
+    left: -510%
+  }
+}
+h3{
+  font-family: Bahnschrift;
+  font-size: 30px;
+  color: darkorange;
+}
+/*Base of site Orange part*/
+#holder{
+  display: flex;
+  width: 100%;
+  height: 200px;
+  background-color:orange;
+  float: left;
+}
+#holder p{
+  text-align:left;
+  color: darkslategrey;
+}
+/*appointment contact*/
+#keeper{
+  float: left;
+}
+h1{
+  font-size: 25px;
+}
+/*Styling for the faq*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.wrapper{
+  max-width: 50%;
+  margin: auto;
+}
+/*The > makes it assign to only the p*/
+.wrapper > p,
+.wrapper > h1{
+  margin: 1 rem 0;
+  text-align: centre;
+}
+.wrapper > h1{
+  letter-spacing: 2px;
+}
+.accordion{
+  background-color: lightgrey;
+  color: black;
+  cursor: pointer;
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 1rem 2.5rem;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+.accordion i{
+  font-size: 1.2rem;
+}
+.active,
+.accordion:hover{
+  background-color: darkorange;
+}
+.pannel{
+  padding: 0 0rem 2.5rem 2rem;
+  background-color: white;
+  overflow: hidden;
+  display: none;
+}
+.pannel p{
+  color: black;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
+.faq{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+  width: 80%;
+}
+.faq.active{
+  boarder:none;
+}
